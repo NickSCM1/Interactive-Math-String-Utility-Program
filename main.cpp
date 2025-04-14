@@ -1,3 +1,10 @@
+//****************************************************** 
+// Author:      Nickolas Marino
+// Asignment:   Interactive Math String Utility
+// Description: A system that deposits, withdrawls, 
+//              and checks the money in a bank account
+//******************************************************
+
 #include <iostream>
 #include <string>
 
