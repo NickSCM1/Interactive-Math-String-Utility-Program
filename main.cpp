@@ -8,7 +8,6 @@
 #include <iostream>
 #include <string>
 
-// Function to calculate factorial using while loop
 void factorialCalculator() {
     int n;
     std::cout << "Enter a positive integer: ";
@@ -29,7 +28,6 @@ void factorialCalculator() {
     std::cout << "Factorial of " << n << " is: " << factorial << std::endl;
 }
 
-// Function to display number pyramid using for loop and nested loops
 void numberPyramid() {
     int rows;
     std::cout << "Enter the number of rows: ";
@@ -51,7 +49,6 @@ void numberPyramid() {
     }
 }
 
-// Function to calculate sum of even or odd numbers using do-while loop
 void sumOfEvenOrOddNumbers() {
     int choice;
     std::cout << "Enter 1 for sum of even numbers or 2 for sum of odd numbers: ";
@@ -87,7 +84,6 @@ void sumOfEvenOrOddNumbers() {
     }
 }
 
-// Function to reverse a string using while loop
 void reverseString() {
     std::string str;
     std::cout << "Enter a string: ";
@@ -103,7 +99,6 @@ void reverseString() {
     std::cout << "Reversed string: " << reversedStr << std::endl;
 }
 
-// Function to check if a string is a palindrome
 void checkPalindrome() {
     std::string str;
     std::cout << "Enter a string: ";
@@ -123,7 +118,6 @@ void checkPalindrome() {
     }
 }
 
-// Function to generate Fibonacci series up to a given number
 void fibonacciSeries() {
     int n;
     std::cout << "Enter a positive integer: ";
@@ -146,7 +140,6 @@ void fibonacciSeries() {
     std::cout << std::endl;
 }
 
-// Function to check if a number is prime
 void checkPrime() {
     int n;
     std::cout << "Enter a positive integer: ";
@@ -172,7 +165,6 @@ void checkPrime() {
     }
 }
 
-// Function to calculate the greatest common divisor (GCD) of two numbers
 void calculateGCD() {
     int a, b;
     std::cout << "Enter two positive integers: ";
@@ -192,7 +184,6 @@ void calculateGCD() {
     std::cout << "GCD of the two numbers is: " << a << std::endl;
 }
 
-// Function to display menu and handle user input
 void displayMenu() {
     int choice;
     do {
